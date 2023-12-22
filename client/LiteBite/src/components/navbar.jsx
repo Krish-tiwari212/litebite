@@ -7,12 +7,12 @@ import search from '../assets/search.svg';
 function navbar() {
 	return (
 		<div className="bg-[#498463CC] w-full h-16 flex flex-row justify-around">
-			<img src={home} alt="" />
-			<img src={heart} alt="" />
-			<img src={search} alt="" />
-			<img src={help} alt="" />
-			<img src={user1} alt="" />
-		</div>
+					<img src={home} alt="" />
+					<img src={heart} alt="" />
+					<img src={search} alt="" />
+					<img src={help} alt="" />
+					<img src={user1} alt="" />
+				</div>
 	);
 }
 
