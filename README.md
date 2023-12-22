@@ -50,4 +50,4 @@ LiteBite welcomes contributions from the community. If you'd like to contribute,
 
 For any issues, feedback, or feature requests, please open an [issue](https://github.com/litebite/issues). We appreciate your input!
 
-Happy cooking with LiteBite! 🍽️🎉
+Happy cooking with LiteBite! 🍽️
