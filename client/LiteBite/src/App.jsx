@@ -5,9 +5,6 @@ import Home from './views/Home'
 export default function App() {
   return (
     <>
-    <Onboarding/>
-    <Login/>
-    <Sign/>
     <Home/>
     </>
   )
