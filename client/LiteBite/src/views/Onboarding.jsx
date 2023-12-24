@@ -1,5 +1,6 @@
 import React from 'react'
 import bg from '../assets/LiteBite.jpg';
+import {Link} from 'react-router-dom'
 function Onboarding() {
   return (
     <>
@@ -14,9 +15,9 @@ function Onboarding() {
 				</div>
 				<div className="flex flex-col justify-evenly items-center gap-2">
 					<div>
-						<button className="w-96 h-16 bg-yellow-500 rounded-full text-black text-3xl font-normal font-jacques">
+						<Link to='login'><button className="w-96 h-16 bg-yellow-500 rounded-full text-black text-3xl font-normal font-jacques">
 							Login
-						</button>
+						</button></Link>
 					</div>
 					<div className="flex justify-around gap-4">
                         <div className='w-36 h-px border-2 mt-4 border-white'></div>
@@ -26,11 +27,11 @@ function Onboarding() {
                         <div className='w-36 h-px border-2 mt-4 border-white'></div>
 					</div>
 
-					<div>
+					<Link to='signup'><div>
 						<button className="w-96 h-16 bg-yellow-500 rounded-full text-black text-3xl font-normal font-jacques">
 							Sign Up
 						</button>
-					</div>
+					</div></Link>
 				</div>
 			</div>
 		</>
