@@ -15,7 +15,7 @@ function Recipe() {
             </img>
             <img src={Cross} alt="" className='z-40 w-12 h-12 absolute p-2'/>
             <div className='w-36 rounded-[250px] flex justify-around bg-opacity-50 h-12 bg-[#06060680] z-40 absolute right-4 top-72'>
-            <div className="w-[93.97px] text-white pt-1 text-2xl font-normal font-'Jaldi'">5+Photos</div>
+            <button className="w-[93.97px] text-white flex flex-col justify-center items center text-2xl font-normal font-'Jaldi'">5+Photos</button>
             </div>
             <img src={Ham} alt="" className='z-40 w-12 h-12 absolute p-2 right-0'/>
         </div>
