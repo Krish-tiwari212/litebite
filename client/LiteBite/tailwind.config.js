@@ -10,6 +10,7 @@ export default {
       fontFamily: {
         decol:"Kaisei Decol, serif",
         jacques: "Jacques Francois, serif",
+        jaldi: "Jaldi, sans-serif",
       },
     },
   },
