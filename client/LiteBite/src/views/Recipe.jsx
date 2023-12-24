@@ -10,14 +10,14 @@ import Bs from '../assets/blankstar.svg'
 function Recipe() {
   return (
     <div className='w-sceen h-auto min-h-screen flex flex-col bg-[#0E100FCC]'>
-        <div className='flex items-start w-screen h-[320px]'>
-            <img src={Bg} alt="" className='w-screen  h-[320px] rounded-bl-[25px] rounded-br-[25px]'>
-            </img>
-            <img src={Cross} alt="" className='z-40 w-12 h-12 absolute p-2'/>
             <div className='w-36 rounded-[250px] flex justify-around bg-opacity-50 h-12 bg-[#06060680] z-40 absolute right-4 top-64'>
             <button className="w-[93.97px] text-white flex flex-col justify-center items center text-2xl font-normal font-'Jaldi'">5+Photos</button>
             </div>
-            <img src={Ham} alt="" className='z-40 w-12 h-12 absolute p-2 right-0'/>
+        <div className='flex items-start w-screen h-[320px]'>
+            <img src={Bg} alt="" className='w-screen  h-[320px] object-cover rounded-bl-[25px] rounded-br-[25px]'>
+            </img>
+            <button className='z-40 w-12 h-12 absolute p-2'><img src={Cross} alt="" className='z-40 w-12 h-12 absolute p-2'/></button>
+            <button className='z-40 w-12 h-12 absolute p-2 right-4'><img src={Ham} alt="" className='z-40 w-12 h-12 absolute p-2'/></button>
         </div>
         <div className='w-screen h-[130px]  bg-[#0E0F0E] flex flex-row justify-around align-middle'>
             <div className='w-2/3 h-inherit pl-2 flex items-center '><div className="text-white text-[32px] font-normal font-['Jacques']">Blueberry & Orange <br/>Pancake</div></div>
